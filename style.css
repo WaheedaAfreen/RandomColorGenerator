@@ -1,0 +1,33 @@
+
+body {
+    background-color: blueviolet;
+    margin: 0;
+    font-family: "Arial Black";
+}
+
+h1 {
+    margin-top: -5px;
+    font-size: 40px;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container {
+    background-color: #a071a9;
+    width: 300px;
+    height: 150px;
+    color: #171616;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: solid #a82727 2px;
+    border-radius: 10px;
+}
